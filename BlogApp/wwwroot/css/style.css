@@ -1,0 +1,12 @@
+body{
+    background-color: #eff2f6;
+}
+
+a{
+    text-decoration: none;
+}
+
+.avatar{
+    width: 120px;
+    height: 120px;
+}
