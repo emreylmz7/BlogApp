@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "N0Dmck3c2XdBCl/3YWLLQFmuPWJLUEIl7a6GB5Igx5I=",
+  "Hash": "tNMuz+G9wkx6BT7KreDF35+GIgOKGBshWHA47bJY/6w=",
   "Source": "BlogApp",
   "BasePath": "_content/BlogApp",
   "Mode": "Default",
@@ -136,12 +136,12 @@
       "OriginalItemSpec": "wwwroot\\img\\6.jpeg"
     },
     {
-      "Identity": "D:\\Web Dev. Road\\.Net Core\\BlogApp\\BlogApp\\wwwroot\\img\\avatar.jpeg",
+      "Identity": "D:\\Web Dev. Road\\.Net Core\\BlogApp\\BlogApp\\wwwroot\\img\\avatar.jpg",
       "SourceId": "BlogApp",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Web Dev. Road\\.Net Core\\BlogApp\\BlogApp\\wwwroot\\",
       "BasePath": "_content/BlogApp",
-      "RelativePath": "img/avatar.jpeg",
+      "RelativePath": "img/avatar.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -150,7 +150,41 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\avatar.jpeg"
+      "OriginalItemSpec": "wwwroot\\img\\avatar.jpg"
+    },
+    {
+      "Identity": "D:\\Web Dev. Road\\.Net Core\\BlogApp\\BlogApp\\wwwroot\\img\\avatar1.jpg",
+      "SourceId": "BlogApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Web Dev. Road\\.Net Core\\BlogApp\\BlogApp\\wwwroot\\",
+      "BasePath": "_content/BlogApp",
+      "RelativePath": "img/avatar1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\avatar1.jpg"
+    },
+    {
+      "Identity": "D:\\Web Dev. Road\\.Net Core\\BlogApp\\BlogApp\\wwwroot\\img\\b1.jpg",
+      "SourceId": "BlogApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Web Dev. Road\\.Net Core\\BlogApp\\BlogApp\\wwwroot\\",
+      "BasePath": "_content/BlogApp",
+      "RelativePath": "img/b1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\b1.jpg"
     },
     {
       "Identity": "D:\\Web Dev. Road\\.Net Core\\BlogApp\\BlogApp\\wwwroot\\img\\p1.jpg",

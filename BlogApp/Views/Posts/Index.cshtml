@@ -2,7 +2,7 @@
 
 <div class="row">
     <div class="col-lg-8">
-        <div class="bg-white p-4">
+        <div class="bg-white p-4 shadow rounded mb-5">
             <h1 class="h4 mb-4">Popular Posts</h1>
             @foreach(var post in Model)
             {
@@ -13,7 +13,7 @@
                         </div>
                         <div class="col-8">
                             <h5><a href="/posts/details/@post.Url" class="btn-link fw-bold text-dark text-decoration-none">@post.Title</a></h5>
-                            <p>@post.Content</p>
+                            <p>@post.Description</p>
 
                             @foreach(var tag in post.Tags)
                             {

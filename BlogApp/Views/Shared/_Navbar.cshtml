@@ -1,7 +1,38 @@
 <nav class="navbar navbar-expand-lg bg-white shadow-sm">
     <div class="container">
+        
         <a href="/posts" class="navbar-brand">
             <i class="bi bi-code-slash"></i> BlogApp
         </a>
+
+            @if(User.Identity!.IsAuthenticated)
+            {
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a href="/posts/list" class="nav-link text-dark">Posts</a>
+                    </li>
+                </ul>
+            
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="/profile/@User.Identity.Name" class="nav-link text-primary"><i class="bi bi-person-fill"></i> @User.Identity.Name</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/users/logout" class="nav-link text-danger"><i class="bi bi-box-arrow-in-right"></i> Logout</a>
+                    </li>
+                </ul>
+            }
+            else
+            {
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="/users/register" class="nav-link text-info"><i class="bi bi-person-add"></i> Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/users/login" class="nav-link text-success"><i class="bi bi-box-arrow-in-left"></i> Login</a>
+                    </li>
+                </ul>
+            }
+        </ul>
     </div>
 </nav>

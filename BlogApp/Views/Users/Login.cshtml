@@ -5,7 +5,7 @@
         <div class="bg-white p-4 rounded shadow-sm">
             <h1 class="text-center mb-4">Login</h1>
             <form action="Login" method="post">
-                <div asp-validation-summary="All" class="text-danger"></div>
+                <div asp-validation-summary="All" class="text-danger px-5"></div>
                 <div class="mb-3 px-5">
                     <label asp-for="Email" class="form-label">Email</label>
                     <input asp-for="Email" class="form-control pl-3 pr-3" placeholder="Email">
@@ -23,28 +23,5 @@
         </div>
     </div>
 </div>
-
-
-@* <div class="row">
-    <div class="col-12">
-        <div class="bg-white p-4">
-            <h1>Login</h1>
-            <form action="Login" method="post">
-                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                <div class="mb-3">
-                    <label asp-for="Email" class="form-label"></label>
-                    <input asp-for="Email" class="form-control">
-                    <span asp-validation-for="Email" class="text-danger"></span>
-                </div>
-                <div class="mb-3">
-                    <label asp-for="Password" class="form-label"></label>
-                    <input asp-for="Password" class="form-control">
-                    <span asp-validation-for="Password" class="text-danger"></span>
-                </div>
-                <button type="submit" class="btn btn-primary">Login</button>
-            </form>
-        </div>
-    </div>
-</div> *@
 
 

@@ -1,3 +1,31 @@
-<div class="text-center">
-    <h1>Welcome to Blog App</h1>
-</div>
+@model List<Post>
+
+<header class="hero bg-dark bg-gradient text-light text-center py-5 rounded shadow">
+        <div class="container">
+            <h1 class="display-4">Welcome!</h1>
+            <p class="lead">Scroll down to read the latest blog posts.</p>
+        </div>
+    </header>
+
+    <section class="py-5 ">
+        <div class="container">
+            <div class="row">
+                @foreach(var post in Model)
+                {
+                    <div class="col-lg-4 col-md-6 mb-4 " >
+                        <div class="card shadow">
+                            <img src="~/img/@post.Image" class="img-fluid rounded" alt="" style="max-height: 270px;">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">@post.Title</h5>
+                                <p class="card-text">@post.Description</p>
+                                <div class="text-center">
+                                    <a href="/posts/details/@post.Url" class="btn btn-dark bg-gradient">Read More</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                }  
+            </div>
+        </div>
+    </section>
